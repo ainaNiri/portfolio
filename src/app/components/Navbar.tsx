@@ -29,14 +29,13 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="fixed top-4 left-0 right-0 z-50 px-6 py-2 
+    <nav className="fixed top-4 left-0 right-0 z-50 px-6 py-4 
       bg-gradient-to-r from-[#1e3a8a]/10 via-[#2563eb]/35 to-[#ef4444]/30 
       backdrop-blur-md border border-white/10 shadow-lg transition-all duration-500">
       <div className="max-w-6xl mx-auto flex items-center justify-between">
         <div className="flex items-center gap-4">
           <div>
             <div className="text-white font-bold">Aina Nirina RANDRIA</div>
-            <div className="text-xs text-[#9fb3d8]">Mobile Developer</div>
           </div>
         </div>
 

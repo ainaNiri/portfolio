@@ -30,7 +30,7 @@ export default function Page() {
               <div className="text-sm kicker mb-3">Hello — I’m</div>
               <h1 className="text-5xl font-bold">Aina Nirina <span className="text-accent">RANDRIA</span></h1>
               <p className="text-[#abcff2] mt-4 max-w-xl leading-relaxed">
-                Front-end Developer specializing in Flutter, React Native and React JS. I create fast, reliable apps that combine performance with elegant, user-friendly design.
+                Mobile and Web developer specializing in Flutter, React Native and React JS. I create fast, reliable apps that combine performance with elegant, user-friendly design.
               </p>
 
               <div className="flex gap-4 mt-6">
