@@ -14,6 +14,7 @@ import { BsAndroid } from "react-icons/bs";
 import Image from "next/image";
 import Aina from "../../public/aina.png";
 import { ContactSection } from "./components/ContactSection";
+import SkillSection from "./components/SkillSection";
 
 export default function Page() {
   return (
@@ -50,27 +51,8 @@ export default function Page() {
         {/* ABOUT */}
         <section id="about" className="section">
           <div className="max-w-6xl mx-auto px-10">
-            <h2 className="text-3xl font-semibold text-white mb-6">About</h2>
-
-            <div className="grid lg:grid-cols-2 gap-25">
-              <ReliefCard title="Who I am" subtitle="Developer & problem solver">
-                Mobile and web developer with over 2.5 years of experience, skilled in the full lifecycle of application development — from design and implementation to deployment and maintenance. I combine strong technical expertise with a high sense of responsibility and attention to detail. Known for being open-minded and collaborative, I am motivated by continuous learning and professional growth.
-              </ReliefCard>
-
-              <ReliefCard title="Skills" subtitle="Technologies I use">
-                <div className="flex flex-wrap gap-15">
-                  <FaFlutter size={30}/>
-                  <DiDart size={30}/>
-                  <FaReact size={30}/>
-                  <BiLogoFirebase size={30}/>
-                  <RiNextjsFill size={30}/>
-                  <SiTypescript size={30}/>
-                  <SiKotlin size={30}/>
-                  <DiSwift size={30}/>
-                  <BsAndroid size={30}/>
-                </div>
-              </ReliefCard>
-            </div>
+            <h2 className="text-3xl font-semibold text-white mb-6">Skills</h2>
+            <SkillSection />
           </div>
         </section>
 
