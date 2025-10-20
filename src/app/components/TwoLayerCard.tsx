@@ -34,9 +34,9 @@ export default function TwoLayerCard({ title, subtitle, children }: Props) {
         animate={{ y: hovered ? -15 : 0, x: hovered ? 3 : 0 }}
         transition={{ duration: 0.5, type: "spring", stiffness: 120 }}
       >
-        <h3 className="text-lg font-semibold text-white">{title}</h3>
+        <h3 className="text-xl font-semibold text-white">{title}</h3>
         {subtitle && (
-          <p className="text-xs text-[#9fb3d8] mt-1">{subtitle}</p>
+          <p className="text-sm text-[#9fb3d8] mt-1">{subtitle}</p>
         )}
         <div className="mt-4 text-[#cfe6ff] text-sm leading-relaxed">
           {children}
